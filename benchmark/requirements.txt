@@ -1,0 +1,12 @@
+# Inference (infer.py)
+openai
+pillow
+tqdm
+
+# Judging (judge.py) — talks to the TEDS_judger HTTP service
+requests
+pandas
+openpyxl
+
+# Optional: only needed for --api_type local_vllm
+# vllm

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+requests
+playwright
+beautifulsoup4
+lxml
+Levenshtein
+table_recognition_metric
+openai
