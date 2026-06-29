@@ -18,6 +18,12 @@
 
 **StrucTab** 是一个面向**表格解析（table parsing）**任务的结构化优化框架，目标是将表格图像转换为结构化的 HTML。与将解析视为扁平的图像到文本问题不同，StrucTab 将其分解为三个相互耦合的子任务，即行列计数、合并单元格分析与最终 HTML 生成，并优化一个沿相同维度（`validity`、`structure`、`content`）分解的强化学习奖励。
 
+<table align="center">
+    <p align="center">
+      <img src="/docs/figures/introduction.jpg" width="80%" />
+    </p>
+</table>
+
 ## 目录 <!-- omit in toc -->
 
 - [仓库结构](#仓库结构)
@@ -64,12 +70,28 @@ StrucTab/
 模型侧代码（训练数据构造、Uni-TabRL 奖励、四个依赖服务，以及分析脚本）单独说明于
 [`code/README.md`](code/README.md)（中文版：[`code/README_zh.md`](code/README_zh.md)）。
 
+强化学习的优化框架如下：
+
+<table align="center">
+    <p align="center">
+      <img src="/docs/figures/optimization_framework.jpg" width="80%" />
+    </p>
+</table>
+
 ## 基准
 
 `benchmark/` 是面向 **TableVerse-5K** 表格解析基准的自包含框架。它运行 **推理 → 评测** 两阶段流程，支持可插拔的 API 后端（`openai_compat` / `local_vllm`）与结构感知的 **TEDS / TEDS-S** 评分器。两个阶段都以样本的 `image_path` 为主键，支持**断点续跑**。
 
 完整的环境准备、数据下载，以及推理 / 评测的分步说明，请见
 [`benchmark/README_zh.md`](benchmark/README_zh.md)（English：[`benchmark/README.md`](benchmark/README.md)）。
+
+基准的数据集构建流程如下：
+
+<table align="center">
+    <p align="center">
+      <img src="/docs/figures/benchmark_pipeline.jpg" width="80%" />
+    </p>
+</table>
 
 ## 引用
 

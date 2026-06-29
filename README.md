@@ -18,6 +18,12 @@
 
 **StrucTab** is a structured optimization framework for **table parsing**, the task of converting a table image into structured HTML. Instead of treating parsing as a flat image-to-text problem, StrucTab decomposes it into three coupled subtasks, namely row/column counting, merged-cell analysis, and final HTML generation, and optimizes a reinforcement-learning reward that is itself decomposed along the same axes (`validity`, `structure`, `content`).
 
+<table align="center">
+    <p align="center">
+      <img src="/docs/figures/introduction.jpg" width="80%" />
+    </p>
+</table>
+
 ## Contents <!-- omit in toc -->
 
 - [Repository Layout](#repository-layout)
@@ -68,6 +74,14 @@ The model-side code (training-data construction, the Uni-TabRL reward, the four
 dependency services, and the analysis scripts) is documented separately in
 [`code/README.md`](code/README.md) (中文版：[`code/README_zh.md`](code/README_zh.md)).
 
+The optimization framework is illustrated below:
+
+<table align="center">
+    <p align="center">
+      <img src="/docs/figures/optimization_framework.jpg" width="80%" />
+    </p>
+</table>
+
 ## Benchmark
 
 `benchmark/` is a self-contained harness for the **TableVerse-5K** table-parsing
@@ -77,6 +91,14 @@ Both stages support **resume** by keying every sample on its `image_path`.
 
 For full setup, data download, and step-by-step inference / judging instructions, see
 [`benchmark/README.md`](benchmark/README.md) (中文版：[`benchmark/README_zh.md`](benchmark/README_zh.md)).
+
+The benchmark pipeline is illustrated below:
+
+<table align="center">
+    <p align="center">
+      <img src="/docs/figures/benchmark_pipeline.jpg" width="80%" />
+    </p>
+</table>
 
 ## Citation
 
