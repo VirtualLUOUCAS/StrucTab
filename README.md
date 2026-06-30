@@ -7,12 +7,13 @@
   <a href="https://github.com/VirtualLUOUCAS/StrucTab">GitHub Repo</a> •
   <a href="https://huggingface.co/datasets/psp-dada/TableVerse-5K">HuggingFace Dataset</a> •
   <a href="https://modelscope.cn/datasets/pspdada/TableVerse-5K">ModelScope Dataset</a> •
-  <a>Paper (coming soon)</a>
+  <a href="https://arxiv.org/abs/2606.29905">Paper</a>
 </p>
 
 ## News <!-- omit in toc -->
 
 - [2026.06] 📖 Code and the TableVerse-5K benchmark are released!
+- [2026.06] 🎉 Our StrucTab is accepted by **ECCV 2026**!
 
 ## Overview <!-- omit in toc -->
 

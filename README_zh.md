@@ -3,16 +3,17 @@
 **面向表格解析的结构化优化框架**
 
 <p align="center">
-  <a href="README.md">English</a> •
+  <a href="README.md">English Version</a> •
   <a href="https://github.com/VirtualLUOUCAS/StrucTab">GitHub 仓库</a> •
   <a href="https://huggingface.co/datasets/psp-dada/TableVerse-5K">HuggingFace 数据集</a> •
   <a href="https://modelscope.cn/datasets/pspdada/TableVerse-5K">ModelScope 数据集</a> •
-  <a>论文（即将发布）</a>
+  <a href="https://arxiv.org/abs/2606.29905">论文</a>
 </p>
 
 ## 新闻 <!-- omit in toc -->
 
 - [2026.06] 📖 代码与 TableVerse-5K 基准已发布！
+- [2026.06] 🎉 我们的 StrucTab 已被 **ECCV 2026** 接收！
 
 ## 概览 <!-- omit in toc -->
 
