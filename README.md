@@ -106,7 +106,12 @@ The benchmark pipeline is illustrated below:
 If you find StrucTab useful, please consider citing:
 
 ```bibtex
-TBD
+@article{StrucTab_2026,
+  title   = {{StrucTab}: A Structured Optimization Framework for Table Parsing},
+  author  = {Li, Gengluo and Peng, Shangpin and Zhang, Chengquan and Wu, Binghong and Feng, Hao and Wang, Weinong and Lyu, Pengyuan and Shen, Huawen and Wan, Xingyu and Tian, Zhuotao and Hu, Han and Ma, Can and Zhou, Yu},
+  journal = {arXiv preprint arXiv:2606.29905},
+  year    = {2026}
+}
 ```
 
 ## License
