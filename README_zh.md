@@ -1,4 +1,4 @@
-# StrucTab <!-- omit in toc -->
+# ECCV 2026 | StrucTab <!-- omit in toc -->
 
 **面向表格解析的结构化优化框架**
 
@@ -7,7 +7,7 @@
   <a href="https://github.com/VirtualLUOUCAS/StrucTab">GitHub 仓库</a> •
   <a href="https://huggingface.co/datasets/psp-dada/TableVerse-5K">HuggingFace 数据集</a> •
   <a href="https://modelscope.cn/datasets/pspdada/TableVerse-5K">ModelScope 数据集</a> •
-  <a href="https://arxiv.org/abs/2606.29905">论文</a>
+  <a href="https://arxiv.org/abs/2606.29905">Arxiv 论文</a>
 </p>
 
 ## 新闻 <!-- omit in toc -->

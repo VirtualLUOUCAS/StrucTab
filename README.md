@@ -1,4 +1,4 @@
-# StrucTab <!-- omit in toc -->
+# ECCV 2026 | StrucTab <!-- omit in toc -->
 
 **A Structured Optimization Framework for Table Parsing**
 
@@ -7,7 +7,7 @@
   <a href="https://github.com/VirtualLUOUCAS/StrucTab">GitHub Repo</a> •
   <a href="https://huggingface.co/datasets/psp-dada/TableVerse-5K">HuggingFace Dataset</a> •
   <a href="https://modelscope.cn/datasets/pspdada/TableVerse-5K">ModelScope Dataset</a> •
-  <a href="https://arxiv.org/abs/2606.29905">Paper</a>
+  <a href="https://arxiv.org/abs/2606.29905">Arxiv Paper</a>
 </p>
 
 ## News <!-- omit in toc -->
